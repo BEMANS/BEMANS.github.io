@@ -9,7 +9,7 @@
         </div>
         <div class="container">
             <div class="noteholder-inside">
-                <span class="Notes-inside">This is how much time we know each other from 17th May at 9:30PM</span>
+                <span class="Notes-inside">This is how much time we know each other from 17 May at 9:30PM</span>
             </div>
             <div class="counter">
                 <div class="squareNumber">
@@ -37,10 +37,18 @@
                     <span>seconds</span>
                 </div>
             </div>
+            <audio id ="music" autoplay controls loop>
+                <source src="./pasChiShod.mp3" type="audio/mpeg" onplay="handleFirstPlay(event)">
+                <p>If you are reading this, it is because your browser does not support the audio element.</p>
+            </audio>
+        
         </div>
+        
+
         <div class="noteholder">
             <span class="Notes">Powered By S</span>
         </div>
+
         <script type="text/javascript" src="./date.js"></script>
     </body>
 </html>
