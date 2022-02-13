@@ -11,6 +11,7 @@
 }
 
 
+
 .Notes { 
     color:rgb(229, 233, 236);
     
@@ -41,6 +42,9 @@
     margin-bottom: 10px;
     border-radius: 25px;
     background-color: rgb(245, 243, 132);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .counter {
     
@@ -71,4 +75,8 @@ span {
 .numbers {
     font-size: larger;
     margin-bottom: 3px;;
+}
+
+#music {
+    margin-top: 30px;;
 }
