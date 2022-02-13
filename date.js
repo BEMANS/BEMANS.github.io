@@ -80,3 +80,8 @@ setInterval(()=>{
     
     
 },1000)
+
+
+document.addEventListener("click",(event)=>{
+    const music = document.getElementById("music").play()
+})
