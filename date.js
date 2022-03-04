@@ -84,5 +84,5 @@ setInterval(()=>{
 
 document.addEventListener("click",(event)=>{
     const music = document.getElementById("music").play()
-    let sneakyPickupLine = document.getElementById("pickup").innerHTML = "I’m pretty mad at Spotify, I went to look at this week’s hottest singles and you weren’t there.";
+    document.getElementById("pickup").innerHTML = "I’m pretty mad at Spotify, I went to look at this week’s hottest singles and you weren’t there.";
 })
