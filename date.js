@@ -65,7 +65,7 @@ function datetimeDifference (from, to) {
 
 const setDate = ()=> {
     const date1 = new Date("05/17/2021, 09:15:00 PM");
-    const date2 = new Date();
+    const date2 = new Date("09/14/2022, 08:45:00 PM");
     const result = datetimeDifference(date1, date2);
     document.getElementById("Year").innerHTML = result.years
     document.getElementById("Month").innerHTML = result.months
